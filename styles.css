@@ -25,34 +25,32 @@ header, main, footer {
 header {
     background-image: url(imgs/backgrounds/sparse\ stars.png);
     height: 150px;
+    color: rgb(78, 0, 52);
 }
 
 main {
     padding: 10px;
-
     color: rgb(78, 0, 52);
 }
 
 footer {
     text-align: center;
-    color: pink;
+    color: rgb(255, 113, 70);
     letter-spacing: 2px;
-
-    color: cyan;
 }
 
 .titulo-big {
     margin: 0;
     font-family: cooper;
     font-size: 2.5rem;
-    color: orange;
+    color: rgb(78, 0, 52);
 }
 
 .section-big {
     margin: 0;
     font-family: cooper;
     font-size: 1.8rem;
-    color: black;
+    color: rgb(78, 0, 52);
     text-align: center;
     background-color: rgb(255, 141, 175);
 }
@@ -78,24 +76,26 @@ footer {
 
 .atulizacoes-board {
     font-family: monospace;
-    background-color: #FFDE59;
+    background-color: rgb(255, 242, 169);
     width: 100%;
     margin: auto;
     padding: 15px;
     margin: 10px;
     
     /* box-shadow: 0px 2px 7px #67382b; */
-    box-shadow: 5px 5px 0 #ff7e9a;
+    box-shadow: 5px 5px 0 rgb(255, 238, 184);
     border-radius: 10px;
 
-    border: #ff7eb9 3px solid;
+    border: rgb(255, 196, 70) 3px solid;
 }
 
 .project {
     margin: 10px 0px;
-    border: 5px solid #c7e5ff;
+    border: rgb(255, 70, 132) 5px solid;
     border-radius: 10px;
     padding: 10px;
+    background-color: rgb(255, 191, 202);
+    box-shadow: 5px 5px 0 rgb(255, 218, 224);
 }
 
 .project > h1 {
@@ -104,14 +104,3 @@ footer {
     font-size: 2rem;
 }
 
-.project-images > img {
-    margin: 10px;
-    height: 300px;
-    border-radius: 10px;
-    border: #ff7eb9 3px solid;
-}
-
-#logo {
-    height: 100%;
-    margin: auto auto;
-}
