@@ -79,6 +79,19 @@ footer {
     
     /* box-shadow: 0px 2px 7px #67382b; */
     box-shadow: 5px 5px 0 #ff7eb9;
+    border-radius: 10px;
 
     border: #ff7eb9 3px solid;
+}
+
+.project {
+    border: 5px solid #c7e5ff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.project > h1 {
+    margin: 0;
+    font-family: cooper;
+    font-size: 2.5rem;
 }
