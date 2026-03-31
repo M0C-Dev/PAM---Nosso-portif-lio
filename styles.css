@@ -100,5 +100,6 @@ footer {
 .project-images > img {
     margin: 10px;
     height: 300px;
+    border-radius: 10px;
     border: #ff7eb9 3px solid;
 }
