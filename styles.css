@@ -70,11 +70,11 @@ footer {
     border-radius: 10px;
     border: rgb(255, 70, 132) 3px solid;
 
+    transform: scale(1);
     transition: transform 1s ease;
 }
 
 .card-nos:hover {
-    transition: 1s ease;
     transform: scale(1.05);
 }
 .card-nos > img {
@@ -97,11 +97,12 @@ footer {
     border-radius: 10px;
 
     border: rgb(255, 196, 70) 3px solid;
+
+    transform: scale(1);
     transition: transform 1s ease;
 }
 
 .atulizacoes-board:hover {
-    transition: 1s ease;
     transform: scale(1.05);
 }
 
@@ -126,11 +127,11 @@ footer {
     border-radius: 10px;
     border: #ff7eb9 3px solid;
 
+    transform: scale(1);
     transition: transform 1s ease;
 }
 
 .project-images > img:hover {
-    transition: 1s ease;
     transform: scale(1.05);
 }
 
