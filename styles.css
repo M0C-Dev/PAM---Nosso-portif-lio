@@ -104,3 +104,15 @@ footer {
     font-size: 2rem;
 }
 
+.project-images > img {
+    margin: 10px;
+    height: 300px;
+    border-radius: 10px;
+    border: #ff7eb9 3px solid;
+}
+
+#logo {
+    height: 100%;
+    margin: auto auto;
+    border: rgb(255, 70, 132) 3px solid;
+}
