@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imgs/backgrounds/back\ only\ stars\ big.png);
     background-color: rgb(255, 225, 191);
 }
 
@@ -69,7 +70,7 @@ footer {
     border: rgb(255, 70, 132) 3px solid;
 }
 .card-nos > img {
-    margin: auto auto;
+    text-align: center;
     width: 100%;
     border-radius: 10000px;
     border: rgb(255, 70, 132) 3px solid;
@@ -108,4 +109,9 @@ footer {
     height: 300px;
     border-radius: 10px;
     border: #ff7eb9 3px solid;
+}
+
+#logo {
+    height: 100%;
+    margin: auto auto;
 }
