@@ -85,6 +85,7 @@ footer {
 }
 
 .project {
+    margin: 10px 0px;
     border: 5px solid #c7e5ff;
     border-radius: 10px;
     padding: 10px;
@@ -93,5 +94,12 @@ footer {
 .project > h1 {
     margin: 0;
     font-family: cooper;
-    font-size: 2.5rem;
+    font-size: 2rem;
+}
+
+.project-images > img {
+    margin: auto auto;
+    width: 100%;
+    border-radius: 10000px;
+    border: #ff7eb9 3px solid;
 }
