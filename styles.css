@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    max-width: 50%;
+    margin: auto;
+}
+
+.small-grey {
+    color: grey;
+    font-size: small;
+}
+
+header, main, footer {
+    border: 5px solid #c7e5ff;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px 0px;
+}
+
+header {
+    background-image: url(imgs/sparse\ stars.png);
+    height: 150px;
+}
+
+main {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #7ca5ff;
+    letter-spacing: 2px;
+}
+
+.titulo-big {
+    margin: 0;
+    font-family: cooper;
+    font-size: 2.5rem;
+    color: #7ca5ff;
+}
+
+.section-big {
+    margin: 0;
+    font-family: cooper;
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+    background-color: #7ca5ff;
+}
+
+.card-nos {
+    width: 175px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+
+    /* box-shadow: 0px 2px 7px #67382b; */
+    box-shadow: 5px 5px 0 #ff7eb9;
+    border-radius: 10px;
+    border: #ff7eb9 3px solid;
+}
+.card-nos > img {
+    margin: auto auto;
+    width: 100%;
+    border-radius: 10000px;
+    border: #ff7eb9 3px solid;
+}
