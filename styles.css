@@ -68,3 +68,17 @@ footer {
     border-radius: 10000px;
     border: #ff7eb9 3px solid;
 }
+
+.atulizacoes-board {
+    font-family: monospace;
+    background-color: #FFDE59;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    margin: 10px;
+    
+    /* box-shadow: 0px 2px 7px #67382b; */
+    box-shadow: 5px 5px 0 #ff7eb9;
+
+    border: #ff7eb9 3px solid;
+}
