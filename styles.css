@@ -167,3 +167,14 @@ footer {
 .paragrapi {
     padding: 10px 100px;
 }
+
+.images {
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgb(255, 242, 169) 0%,
+            rgba(255,255,255,0) 30%,
+            rgba(255,255,255,0) 70%,
+            rgb(255, 242, 169) 100%
+        ), url(imgs/backgrounds/yellow\ gif\ stars.gif);
+}
