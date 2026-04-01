@@ -37,7 +37,7 @@ header {
 }
 
 main {
-    padding: 20px;
+    padding: 0px 20px;
     color: rgb(78, 0, 52);
 }
 
@@ -115,15 +115,19 @@ footer {
 }
 
 .project {
+    overflow: hidden;
     margin: 20px 0px;
     border: rgb(255, 70, 132) 5px solid;
     border-radius: 10px;
-    padding: 20px;
     background-color: rgb(255, 191, 202);
     box-shadow: 5px 5px 0 rgb(255, 218, 224);
 }
 
-.project > h1 {
+.project > div {
+    padding: 20px;
+}
+
+.project > div > h1 {
     margin: 0;
     font-family: cooper;
     font-size: 2rem;
